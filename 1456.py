@@ -1,4 +1,5 @@
 import sys
+import math 
 sys.stdin = open('Leetcode/input.txt','r')
 sys.stdout = open('Leetcode/output.txt','w')
 
@@ -30,4 +31,5 @@ maxVowels("leetcode",2)
 
                     
                 
+
                 
