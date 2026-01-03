@@ -4,11 +4,6 @@ sys.stdin = open('Leetcode/input.txt','r')
 sys.stdout = open('Leetcode/output.txt','w')
 
 def maxVowels(s, k):
-    """
-    :type s: str
-    :type k: int
-    :rtype: int
-    """
     s = list(s)
     n = len(s)
     mx = 0
