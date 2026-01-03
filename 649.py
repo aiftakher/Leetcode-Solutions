@@ -33,7 +33,6 @@ def predictPartyVictory(senate):
         n = len(senate)
         while (1):
             i = i%n
-#        for i in range(len(senate)):
             if(senate[i]=='X'):
                 i +=1
                 continue
@@ -49,7 +48,6 @@ def predictPartyVictory(senate):
                             senate[j] = 'X'
                             break
                         j = j + 1
-#                    senate[cur_D] = 'X'
                     idx_D +=1
                     cur_D = pos_D[idx_D]
             elif(senate[i]=='D'):
@@ -64,13 +62,10 @@ def predictPartyVictory(senate):
                             senate[j] = 'X'
                             break
                         j = j + 1
-#                    senate[cur_R] = 'X'
                     idx_R +=1
                     cur_R = pos_R[idx_R]
             
             i = i + 1
-#            if (i == len(senate) -1) and (found == False):
-#                i = 0
                         
 
 predictPartyVictory('RDD')    
